@@ -51,12 +51,12 @@ uni-app Vue3 Vite3 Pinia TypeScript 基础框架
 │  │  ├── interceptors # 拦截器相关目录
 │  │  └── ...
 │  ├── wxcomponents    # 微信小程序组件
-│  ├── App.vue
+│  ├── App.vue        # 这个文件的作用包括:调用应用生命周期函数、配置全局样式、配置全局的存储globalData
 │  ├── env.d.ts
-│  ├── main.ts
-│  ├── manifest.json
-│  ├── pages.json
-│  └── uni.scss
+│  ├── main.ts        # main.[js/ts] 是uni-app的入口文件,主要作用是初始化vue实例、定义全局组件、使用需要的插件如 vuex.
+│  ├── manifest.json # manifest.json 文件是应用的配置文件，用于指定应用的名称、图标、权限等
+│  ├── pages.json # 对uni-app进行全局配置,决定页面文件的路径、窗口样式、原生的导航栏、底部的原生tabbar等 官方文档:https://uniapp.dcloud.net.cn/collocation/pages.html
+│  └── uni.scss   # uni.scss文件的用途是为了方便整体控制应用的风格 官方文档:https://uniapp.dcloud.net.cn/collocation/uni-scss.html
 ├── .editorconfig
 ├── .env
 ├── .env.development
