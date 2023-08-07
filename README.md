@@ -12,7 +12,7 @@ uni-app Vue3 Vite3 Pinia TypeScript 基础框架
 
 ## 目录结构
 
-```shell
+```
 ├── mock              # mockjs
 ├── src
 │  ├── api            # 接口相关

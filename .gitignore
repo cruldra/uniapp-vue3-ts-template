@@ -3,7 +3,7 @@ node_modules/
 unpackage/
 dist/
 dist-ssr/
-
+pnpm-lock.yaml
 # local env files
 # *.local
 .env.local
