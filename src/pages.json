@@ -60,7 +60,7 @@
       }
     }
   ],
-  "subPackages": [
+  /*"subPackages": [
     {
       "root": "pagesA",
       "pages": [
@@ -179,7 +179,7 @@
         }
       ]
     }
-  ],
+  ],*/
   "globalStyle": {
     "navigationBarTitleText": "uni-app",
     "backgroundColor": "@bgColor",
@@ -189,7 +189,7 @@
     "navigationBarBackgroundColor": "@navBgColor",
     "navigationBarTextStyle": "@navTxtStyle"
     // "navigationStyle": "custom"
-  },
+  }/*,
   "tabBar": {
     "color": "#474747",
     "selectedColor": "#9BC6FC",
@@ -214,5 +214,5 @@
         "selectedIconPath": "static/images/tabBar/selectedAbout.png"
       }
     ]
-  }
+  }*/
 }
