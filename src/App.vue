@@ -53,47 +53,14 @@
     console.log('App Hide');
   });
 </script>
-<style>
+<style lang="scss">
   page {
-    background-color: #f3f4f6;
+    background-color: $page-color-base;
   }
   @media (prefers-color-scheme: dark) {
     page {
-      background-color: #222222;
+      background-color: $page-color-base-dark;
     }
   }
 </style>
 <style lang="scss"></style>
-
-<!-- 下面样式用来测试 PagesC CustomBar ，请删除! -->
-<!-- <style lang="scss">
-  /*每个页面公共css */
-  @import '@/static/iconfont2/iconfont.css';
-
-  /* #ifdef H5 */
-  uni-page-head {
-    display: none;
-  }
-
-  /* #endif */
-
-  .clear-btn {
-    @apply p-0;
-    background: transparent;
-    border: none;
-
-    &::after {
-      border: none;
-    }
-  }
-
-  .bg-1 {
-    @apply text-white;
-    background-image: linear-gradient(134deg, #6d6be3 0%, #a565e4 100%);
-  }
-
-  .bg-2 {
-    @apply text-gray-400;
-    background-image: linear-gradient(134deg, #8785e4 0%, #b983ef 100%);
-  }
-</style> -->
