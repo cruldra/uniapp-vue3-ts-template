@@ -1,7 +1,7 @@
 import type { RuleContext } from 'unocss';
 import type { Theme } from 'unocss/preset-uno';
 import { defineConfig, presetAttributify, presetIcons, transformerDirectives, transformerVariantGroup } from 'unocss';
-import { presetApplet, presetRemToRpx, transformerApplet, transformerAttributify } from 'unocss-applet';
+import { presetApplet, presetRemRpx, transformerApplet, transformerAttributify } from 'unocss-applet';
 import { parseColor } from '@unocss/preset-mini/utils';
 import { promises as fs } from 'fs';
 import { importDirectory, parseColors, runSVGO, deOptimisePaths } from '@iconify/tools';
@@ -147,7 +147,7 @@ export default defineConfig({
      */
     presetApplet({ enable: isApplet }),
     presetAttributify(),
-    presetRemToRpx({ enable: isApplet }),
+    presetRemRpx({ enable: isApplet }),
   ],
   transformers: [
     transformerDirectives(),
