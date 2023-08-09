@@ -1,3 +1,31 @@
 @import 'auxiliary';
 // @import 'mixin';
 // @import 'flex';
+
+.page {
+  padding: 10px 20px 0px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 15px;
+  //-webkit-align-items: flex-start;
+  //-webkit-box-align: flex-start;
+  //-ms-flex-align: flex-start;
+  //align-items: flex-start;
+  //border: 3px solid #4b969a;
+
+  .page-item{
+    width: 100%;
+  }
+}
+
+
+.section-title{
+  font-size: 3.733vw;
+  font-weight: 700;
+  color: #131212;
+}
