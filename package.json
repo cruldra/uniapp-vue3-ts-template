@@ -62,7 +62,7 @@
     "@dcloudio/uni-mp-toutiao": "3.0.0-3080720230703001",
     "@dcloudio/uni-mp-weixin": "3.0.0-3080720230703001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3080720230703001",
-    "@dcloudio/uni-ui": "^1.4.22",
+    "@dcloudio/uni-ui": "^1.4.28",
     "@fortawesome/fontawesome-free": "^6.2.0",
     "await-to-js": "^3.0.0",
     "crypto-js": "^4.1.1",
@@ -71,10 +71,10 @@
     "luch-request": "^3.0.8",
     "pinia": "^2.0.25",
     "qs": "^6.11.0",
+    "uview-plus": "^3.1.35",
     "vue": "^3.2.47",
     "vue-demi": "^0.13.11",
-    "vue-i18n": "^9.2.2",
-    "uview-plus": "^3.1.35"
+    "vue-i18n": "^9.2.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
