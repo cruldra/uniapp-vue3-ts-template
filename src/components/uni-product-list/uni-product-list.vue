@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import { defineProps } from 'vue';
 
-  defineProps({
+  const props = defineProps({
     products: {
       type: Array,
       required: true,
@@ -11,12 +11,18 @@
       required: false,
       default: 'img',
     },
+    detailPage: {
+      type: String,
+      required: true,
+    },
   });
+
+  const navigateToDetail = () => uni.navigateTo({ url: props.detailPage });
 </script>
 
 <template>
   <view class="product-list">
-    <view class="product-item" v-for="(item, index) in products" :key="index">
+    <view class="product-item" @click="navigateToDetail" v-for="(item, index) in products" :key="index">
       <view class="product-img">
         <img alt="Random image from unsplash" :src="item[coverImgField]" class="css-gui-fjakwv" />
       </view>

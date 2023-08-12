@@ -27,6 +27,18 @@
         "navigationBarTitleText": "搜索"
 //        "navigationStyle": "custom"
       }
+    },{
+      "path": "pages/index/detail",
+      "style": {
+        "navigationBarTitleText": "详情"
+        //        "navigationStyle": "custom"
+      }
+    },{
+      "path": "pages/index/sell",
+      "style": {
+        "navigationBarTitleText": "卖车"
+        //        "navigationStyle": "custom"
+      }
     },
     {
       "path": "pages/demo/index",

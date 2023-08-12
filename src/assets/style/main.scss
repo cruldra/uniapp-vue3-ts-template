@@ -29,3 +29,11 @@
   font-weight: 700;
   color: #131212;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-size: 100px;
+  }
+}
